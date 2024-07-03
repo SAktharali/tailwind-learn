@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind basics</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+ <!--Typography-->
+ <h1 class="font-bold">FONT FAMILY</h1>
+ <p class="font-sans">this text uses sans family</p>
+ <p class="font-serif">this text uses serif family</p>
+ <p class="font-mono">this text uses mono family</p>
+ <p class="font-bebas">this text uses bebas family</p>
+ <br>
+<hr>
+ <!-- Size -->
+  <h1 class="font-bold">TEXT SIZES</h1>
+  <p class="text-xs">extra small text -xs</p>
+  <p class="text-sm">small text -sm</p>
+  <p class="text-base">default or medium text -base</p>
+  <p class="text-lg">large text -lg</p>
+  <p class="text-xl">extra large text -xl</p>
+  <br>
+  <hr>
+  <!-- RESPONSIVE FONT SIZE -->
+  <h1 class="font-bold">RESPONSIVE FONT SIZE</h1>
+  <p class="text-base md:text-lg lg:text-xl">medium screen large text,large screen xl text</p>
+  <br>
+  <hr>
+  <!--Extra large sizes-->
+  <h1 class="font-bold">Extra large size</h1>
+  <p class="text-2xl">2 xl</p>
+  <p class="text-3xl">3 xl</p>
+  <p class="text-4xl">4 xl</p>
+  <p class="text-5xl">5 xl</p>
+  <p class="text-6xl">6 xl</p>
+  <p class="text-7xl">7 xl</p>
+  <p class="font-bold">upto 5 active in tcss and manual we can add</p>
+  <br>
+  <hr>
+  <!--other font classes-->
+  <h1 class="text-3xl font-bold">Title</h1>
+  <p><span class="font-bold">ipsum dolor sit </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, non.</p>
+  <p><span class="leading-normal">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptas maiores porro molestias odio repellendus dignissimos dolorem laboriosam vero ut enim veniam, sed aliquid aut explicabo. Laudantium ipsum eos labore nostrum commodi eligendi tenetur fuga modi qui incidunt ipsa quia, quo voluptas corrupti omnis laboriosam harum non nam voluptatibus vitae.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptatem praesentium ab alias expedita ratione architecto qui nihil obcaecati illo?
+  </span>
+  <br>
+  <hr>
+  <p><span class="leading-10">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptas maiores porro molestias odio repellendus dignissimos dolorem laboriosam vero ut enim veniam, sed aliquid aut explicabo. Laudantium ipsum eos labore nostrum commodi eligendi tenetur fuga modi qui incidunt ipsa quia, quo voluptas corrupti omnis laboriosam harum non nam voluptatibus vitae.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptatem praesentium ab alias expedita ratione architecto qui nihil obcaecati illo?
+  </span>
+</p>
+  <br>
+  <hr>
+  <p>
+    <span class="leading-relaxed">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla quibusdam vero molestias corporis optio dolorem provident quasi consequuntur ipsam quas?
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, iste! Recusandae exercitationem corporis, quaerat consequatur similique vero explicabo aliquid at.
+    </span>
+  </p>
+  <hr>
+  <p>
+    <span class="leading-loose">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla quibusdam vero molestias corporis optio dolorem provident quasi consequuntur ipsam quas?
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, iste! Recusandae exercitationem corporis, quaerat consequatur similique vero explicabo aliquid at.
+    </span>
+  </p>
+  <br>
+  <hr>
+  <!-- colors -->
+   <div class="bg-red-500 h-8">R</div>
+   <div class="bg-argon-500 h-8">A</div>
+   <div class="bg-indigo-500 h-8">I</div>
+   <div class="bg-neon-400 h-8">N</div>
+   <div class="bg-blue-500 h-8">B</div>
+   <div class="bg-orange-500 h-8">0</div>
+   <div class="bg-white-500 h-8">w</div>
+   <!-- custom colors in extend in tailwind.config.js -->
+    <div class="bg-pure-red h-8">red</div>
+    <!-- text-colors -->
+     <p class="text-gray-50">text</p>
+     <p class="text-gray-100">text</p>
+     <p class="text-gray-200">text</p>
+     <p class="text-gray-300">text</p>
+     <p class="text-gray-400">text</p>
+     <p class="text-gray-500">text</p>
+     <p class="text-gray-600">text</p>
+     <p class="text-gray-700">text</p>
+     <p class="text-gray-900">text</p>
+     <p class="text-pure-red">text</p>
+</html>
