@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .click-btn{
+        @apply bg-blue-600 p-2 text-white rounded border-2 border-pink-500
+    }
+}
