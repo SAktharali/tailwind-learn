@@ -6,8 +6,22 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'pure-red':'#ff0000'
+        'pure-red':'#ff0000',
+        'deep-orange':'#E64A19'
       }
+    },
+    screens: {
+      'tablet': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    },
+    fontWeight:{
+'fw-bold':900
     },
     fontFamily:{
       bebas:["Bebas Neue", "sans-serif"]
@@ -27,5 +41,6 @@ module.exports = {
     }
   },
   plugins: [],
+  darkMode:'selector'
 }
 
